@@ -6,8 +6,11 @@
 package u1_a2_jugn;
 
 /**
- *
- * @author Acer
+ * @author JUGN
+ * ES1611301503
+ * DS-DEBA-1701-B1-001
+ * Enero 2017
+ * Pilas, colas y listas
  */
 
 import javax.swing.*;

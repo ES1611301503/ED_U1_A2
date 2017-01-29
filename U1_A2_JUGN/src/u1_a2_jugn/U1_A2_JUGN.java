@@ -7,7 +7,11 @@ package u1_a2_jugn;
 
 /**
  *
- * @author Acer
+ * @author JUGN
+ * ES1611301503
+ * DS-DEBA-1701-B1-001
+ * Enero 2017
+ * Pilas, colas y listas
  */
 
 import javax.swing.JOptionPane;
@@ -20,7 +24,18 @@ public class U1_A2_JUGN {
     private int i,n;
     private String Print,Valor;
     /**
-     * Metodo pila
+     * Pila
+     * 
+     * Las pilas son estructuras de datos fundamentales que se usan en muchas aplicaciones, como
+     * puede ser cuando los navegadores de internet van guardando en una pila las direcciones de
+     * los sitios recién revisados.
+     * Una pila es un tipo de dato abstracto (TDA) que soporta dos métodos fundamentales: push y pop.
+     * push (o): permite insertar, introducir o empujar un objeto en la parte superior de la pila.
+     * Entrada: objeto
+     * Salida: ninguna
+     * pop (): sacar el objeto superior de la pila y regresarlo; se produce un error si la pila está vacía.
+     * Entrada: ninguna
+     * Salida: objeto
      */
     public void Pila(){
         int num[]=new int [0];
@@ -151,9 +166,28 @@ public class U1_A2_JUGN {
     } /**
      * Fin metodo
      */
+    
     /**
-     * Metodo cola
-     */
+    * Para una pila también se definen métodos de soporte:
+    * size(): regresa la cantidad de objetos en la pila.
+    * Entrada: ninguna
+    * Salida: entero
+    * isEmpty(): regresa un valor booleano que indica si la pila está vacía.
+    * Entrada: ninguna
+    * Salida: booleana
+    * top(): regresa el objeto superior de la pila sin sacarlo de ella, se produce un error si la pila está
+    * vacía.
+    * Entrada: ninguna
+    * Salida: objeto
+    */
+    
+    /**
+    * Cola
+    *
+    * Es una estructura que consta solamente de dos operaciones: inserción (push) y eliminación (pop). La función
+    * push sólo se puede realizar a través de un extremo (frente) y la función pop sólo se realiza por el otro extremo (final).
+    */
+       
     public void Cola() {
         double dato[]=new double [0];
         double dato_t[]=new double [0];
@@ -275,9 +309,14 @@ public class U1_A2_JUGN {
     /**
      * Fin metodo
      */
+    
     /**
-     * Metodo Lista
-     */
+    * Lista
+    * Una lista es una colección de nodos que en conjunto forman un ordenamiento de forma lineal.
+    * El orden se determina como en el juego infantil “sigan al líder”, porque cada nodo es un objeto
+    * compuesto que guarda una referencia a un elemento y, una referencia llamada next (siguiente), a otro nodo.
+    */   
+    
     public void Lista() {
         int elemen1=0,elemen2=0;
         int dato;
